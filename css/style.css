@@ -30,14 +30,6 @@ a {
     text-decoration: none;
 }
 
-header {
-    padding: 10px;
-}
-
-footer {
-    padding: 6px 0 0 0;
-}
-
 
 /* Utils */
 .container-sm {
@@ -144,6 +136,12 @@ footer {
 
 
 /*=====================================*/
+/* Main Header */
+#main-header {
+    padding: 10px;
+}
+
+
 /* Main Menu */
 #main-menu ul {
     display: flex;
@@ -156,7 +154,11 @@ footer {
 }
 
 
-/* Footer */
+/* Main Footer */
+#main-footer {
+    padding: 6px 0 0 0;
+}
+
 .footer-bottom {
     padding: 20px 0;
     display: flex;

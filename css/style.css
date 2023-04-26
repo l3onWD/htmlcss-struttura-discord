@@ -15,6 +15,11 @@
     box-sizing: border-box;
 }
 
+a {
+    color: #000;
+    text-decoration: none;
+}
+
 /* Generics */
 ul {
     list-style: none;
@@ -40,29 +45,30 @@ header {
     background-color: var(--color-gold);
 }
 
-.border-dashed {
-    border: 2px dashed #000;
+.text-right {
+    text-align: right;
 }
 
-
-
-.debug {
-    min-height: 100px;
-    border: 2px dashed #000;
-    background-color: var(--color-green);
+.d-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 /* layout */
 .row {
     display: flex;
 }
 
-.col-25 {
-    flex-basis: 25%;
+.col {
+    flex-basis: 100%;
+    padding: 10px;
+    border: 2px dashed #000;
 }
 
-.col-50 {
-    flex-basis: 50%;
+.col-30 {
+    flex-basis: 30%;
 }
 
 
@@ -70,4 +76,9 @@ header {
 /* Main Menu */
 #main-menu ul {
     display: flex;
+}
+
+#main-menu a {
+    display: block;
+    padding: 0 10px;
 }

@@ -1,5 +1,15 @@
 /* Variables */
+/*
+#add8e6 cyan
+#daa520 gold
+#00008b blue
+#ee82ee pink
+#228b22 green
+#d3d3d3 gray
+*/
+:root {
 
+}
 
 /* Resets */
 * {
@@ -9,17 +19,38 @@
 }
 
 /* Generics */
-body {
 
-    /* debug */
-    min-height: 500px;
-    background-color: aquamarine;
-}
 
 /* Utils */
+.container {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.bg-cyan {
+    background-color: #add8e6;
+}
+
+.debug-sm {
+    min-height: 100px;
+    border: 2px dashed #000;
+}
+
+.debug-md {
+    min-height: 300px;
+    border: 2px dashed #000;
+}
+
+.debug-lg {
+    min-height: 500px;
+    border: 2px dashed #000;
+}
 
 /* layout */
+.row {
+    display: flex;
+}
 
 
 /*=====================================*/

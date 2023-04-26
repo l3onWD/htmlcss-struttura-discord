@@ -67,6 +67,10 @@ a {
     background-color: var(--color-gray);
 }
 
+.bg-green {
+    background-color: var(--color-green);
+}
+
 .text-right {
     text-align: right;
 }
@@ -85,6 +89,10 @@ a {
 
 .h-400 {
     min-height: 400px
+}
+
+.h-800 {
+    min-height: 800px
 }
 
 

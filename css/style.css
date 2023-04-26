@@ -48,14 +48,6 @@ a {
     background-color: #fff;
 }
 
-.bg-cyan {
-    background-color: var(--color-cyan);
-}
-
-.bg-gold {
-    background-color: var(--color-gold);
-}
-
 .bg-blue {
     background-color: var(--color-blue);
 }

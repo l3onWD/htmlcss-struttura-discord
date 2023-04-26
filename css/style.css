@@ -1,14 +1,11 @@
 /* Variables */
-/*
-#add8e6 cyan
-#daa520 gold
-#00008b blue
-#ee82ee pink
-#228b22 green
-#d3d3d3 gray
-*/
 :root {
-
+    --color-cyan: #add8e6;
+    --color-blue: #00008b;
+    --color-gold: #daa520;
+    --color-pink: #ee82ee;
+    --color-green: #228b22;
+    --color-gray: #d3d3d3;
 }
 
 /* Resets */
@@ -19,6 +16,13 @@
 }
 
 /* Generics */
+ul {
+    list-style: none;
+}
+
+header {
+    padding: 10px;
+}
 
 
 /* Utils */
@@ -29,22 +33,23 @@
 }
 
 .bg-cyan {
-    background-color: #add8e6;
+    background-color: var(--color-cyan);
 }
 
-.debug-sm {
+.bg-gold {
+    background-color: var(--color-gold);
+}
+
+.border-dashed {
+    border: 2px dashed #000;
+}
+
+
+
+.debug {
     min-height: 100px;
     border: 2px dashed #000;
-}
-
-.debug-md {
-    min-height: 300px;
-    border: 2px dashed #000;
-}
-
-.debug-lg {
-    min-height: 500px;
-    border: 2px dashed #000;
+    background-color: var(--color-green);
 }
 
 /* layout */
@@ -52,5 +57,17 @@
     display: flex;
 }
 
+.col-25 {
+    flex-basis: 25%;
+}
+
+.col-50 {
+    flex-basis: 50%;
+}
+
 
 /*=====================================*/
+/* Main Menu */
+#main-menu ul {
+    display: flex;
+}

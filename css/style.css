@@ -30,6 +30,10 @@ a {
     text-decoration: none;
 }
 
+header {
+    padding: 10px;
+}
+
 footer {
     padding: 6px 0 0 0;
 }
@@ -88,20 +92,16 @@ footer {
     border: 2px dashed #000;
 }
 
-.p-10 {
-    padding: 10px;
-}
-
-.p-30 {
+.p-1 {
     padding: 30px;
 }
 
 .h-400 {
-    min-height: 400px
+    min-height: 400px;
 }
 
 .h-800 {
-    min-height: 800px
+    min-height: 800px;
 }
 
 .separator {
@@ -119,6 +119,7 @@ footer {
     flex-grow: 1;
     flex-shrink: 0;
     padding: 10px;
+    border: 2px dashed #000;
 }
 
 .col-20 {

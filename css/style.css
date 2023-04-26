@@ -80,7 +80,6 @@ a {
 .col {
     flex-shrink: 0;
     padding: 10px;
-    border: 2px dashed #000;
 }
 
 .col-20 {

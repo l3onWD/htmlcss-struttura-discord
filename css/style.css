@@ -78,6 +78,7 @@ a {
 }
 
 .col {
+    flex-grow: 1;
     flex-shrink: 0;
     padding: 10px;
 }

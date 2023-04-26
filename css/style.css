@@ -71,6 +71,14 @@ a {
     padding: 10px;
 }
 
+.p-30 {
+    padding: 30px;
+}
+
+.h-400 {
+    min-height: 400px
+}
+
 
 /* Layout */
 .row {

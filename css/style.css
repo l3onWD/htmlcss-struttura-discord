@@ -132,6 +132,10 @@ a {
     background-color: var(--color-cyan);
 }
 
+.col .row .col {
+    border-color: #fff;
+ }
+
 
 /*=====================================*/
 /* Main Header */
